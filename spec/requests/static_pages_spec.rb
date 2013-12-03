@@ -33,4 +33,9 @@ describe "Static pages" do
     it { should have_content('Contact') }
     it { should have_title(full_title('Contact')) }
   end
+
+  # it "should have the right links on the layout" do
+  #   click_link "Sign up now!"
+  #   expect(page).to { visit signup_path }
+  # end
 end
