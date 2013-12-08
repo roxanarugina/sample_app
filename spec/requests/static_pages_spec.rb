@@ -12,6 +12,7 @@ describe "Static pages" do
     it { should have_title('') }
     it { should_not have_title('| Home') }
   end
+  
 
   describe "Help page" do
     before { visit help_path }
